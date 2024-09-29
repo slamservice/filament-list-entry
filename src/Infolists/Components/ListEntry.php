@@ -8,7 +8,7 @@ use Filament\Infolists\Components\Entry;
 use Filament\Support\Concerns\HasBadge;
 use Filament\Support\Concerns\HasExtraAttributes;
 
-class SimpleListEntry extends Entry
+class ListEntry extends Entry
 {
     use HasBadge;
     use HasExtraAttributes;
