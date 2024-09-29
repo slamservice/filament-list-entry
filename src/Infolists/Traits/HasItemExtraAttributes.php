@@ -1,6 +1,6 @@
 <?php
 
-namespace Thiktak\FilamentSimpleListEntry\Infolists\Traits;
+namespace Fauzie811\FilamentListEntry\Infolists\Traits;
 
 use Closure;
 use Illuminate\View\ComponentAttributeBag;
@@ -31,7 +31,7 @@ trait HasItemExtraAttributes
      */
     public function getItemExtraAttributes($record): array
     {
-        $temporaryAttributeBag = new ComponentAttributeBag();
+        $temporaryAttributeBag = new ComponentAttributeBag;
 
         foreach ($this->itemExtraAttributes as $itemExtraAttributes) {
             $temporaryAttributeBag = $temporaryAttributeBag->merge($this->evaluate($itemExtraAttributes, [

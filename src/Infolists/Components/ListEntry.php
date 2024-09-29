@@ -1,12 +1,12 @@
 <?php
 
-namespace Thiktak\FilamentSimpleListEntry\Infolists\Components;
+namespace Fauzie811\FilamentListEntry\Infolists\Components;
 
 use Closure;
-use Filament\Support\Concerns\HasBadge;
+use Fauzie811\FilamentListEntry\Infolists\Traits;
 use Filament\Infolists\Components\Entry;
+use Filament\Support\Concerns\HasBadge;
 use Filament\Support\Concerns\HasExtraAttributes;
-use Thiktak\FilamentSimpleListEntry\Infolists\Traits;
 
 class SimpleListEntry extends Entry
 {
@@ -21,7 +21,7 @@ class SimpleListEntry extends Entry
     use Traits\HasItemUrl;
     use Traits\HasListStyle;
 
-    protected string $view = 'thiktak-filament-simple-list-entry::infolists.components.simple-list-entry';
+    protected string $view = 'fauzie811-filament-list-entry::infolists.components.list-entry';
 
     public Closure | string | null $separator = ', ';
 }

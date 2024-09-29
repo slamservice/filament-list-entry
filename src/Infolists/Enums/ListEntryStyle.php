@@ -1,8 +1,8 @@
 <?php
 
-namespace Thiktak\FilamentSimpleListEntry\Infolists\Enums;
+namespace Fauzie811\FilamentListEntry\Infolists\Enums;
 
-enum SimpleListListStyle: string
+enum ListEntryStyle: string
 {
     case inline = 'inline';
     case list = 'list';

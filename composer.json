@@ -1,22 +1,27 @@
 {
-    "name": "thiktak/filament-simple-list-entry",
+    "name": "fauzie811/filament-list-entry",
     "type": "project",
-    "description": "Simple List Entry for Infolist",
+    "description": "List Entry for Filament Infolist",
     "keywords": [
         "laravel",
         "filament",
         "filament-plugin"
     ],
-    "homepage": "https://github.com/Thiktak/filament-simple-list-entry",
+    "homepage": "https://github.com/fauzie811/filament-list-entry",
     "support": {
-        "issues": "https://github.com/Thiktak/filament-simple-list-entry/issues",
-        "source": "https://github.com/Thiktak/filament-simple-list-entry"
+        "issues": "https://github.com/fauzie811/filament-list-entry/issues",
+        "source": "https://github.com/fauzie811/filament-list-entry"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Georges OLIVARES",
             "email": "georges.olivares@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Fauzie",
+            "email": "fauzie811@yahoo.com",
             "role": "Developer"
         }
     ],
@@ -41,12 +46,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Thiktak\\FilamentSimpleListEntry\\": "src/"
+            "Fauzie811\\FilamentListEntry\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Thiktak\\FilamentSimpleListEntry\\Tests\\": "tests/"
+            "Fauzie811\\FilamentListEntry\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -66,7 +71,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Thiktak\\FilamentSimpleListEntry\\FilamentSimpleListEntryServiceProvider"
+                "Fauzie811\\FilamentListEntry\\FilamentListEntryServiceProvider"
             ]
         }
     },

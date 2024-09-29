@@ -1,15 +1,15 @@
 <?php
 
-namespace Thiktak\FilamentSimpleListEntry;
+namespace Fauzie811\FilamentListEntry;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class FilamentSimpleListEntryPlugin implements Plugin
+class FilamentListEntryPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'thiktak/filament-Simple-List-Entry';
+        return 'fauzie811/filament-list-entry';
     }
 
     public function register(Panel $panel): void

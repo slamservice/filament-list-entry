@@ -1,17 +1,17 @@
 <?php
 
-namespace Thiktak\FilamentSimpleListEntry\Infolists\Traits;
+namespace Fauzie811\FilamentListEntry\Infolists\Traits;
 
 use Closure;
-use Thiktak\FilamentSimpleListEntry\Infolists\Enums\SimpleListListStyle;
+use Fauzie811\FilamentListEntry\Infolists\Enums\ListEntryStyle;
 
 trait HasListStyle
 {
     public Closure | bool | null $inline = true;
 
-    public Closure | SimpleListListStyle | string | null $listStyle = SimpleListListStyle::list;
+    public Closure | ListEntryStyle | string | null $listStyle = ListEntryStyle::list;
 
-    public function listStyle($listStyle = SimpleListListStyle::list): self
+    public function listStyle($listStyle = ListEntryStyle::list): self
     {
         $this->listStyle = $listStyle;
 
@@ -20,7 +20,7 @@ trait HasListStyle
 
     public function getListStyle(): string
     {
-        return SimpleListListStyle::fromName($this->evaluate($this->listStyle));
+        return ListEntryStyle::fromName($this->evaluate($this->listStyle));
     }
 
     public function inline($inline): self

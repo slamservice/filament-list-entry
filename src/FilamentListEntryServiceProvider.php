@@ -1,6 +1,6 @@
 <?php
 
-namespace Thiktak\FilamentSimpleListEntry;
+namespace Fauzie811\FilamentListEntry;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
@@ -16,11 +16,11 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 use VendorName\Skeleton\Commands\SkeletonCommand;
 use VendorName\Skeleton\Testing\TestsSkeleton;
 
-class FilamentSimpleListEntryServiceProvider extends PackageServiceProvider
+class FilamentListEntryServiceProvider extends PackageServiceProvider
 {
-    public static string $name = 'thiktak-filament-simple-list-entry';
+    public static string $name = 'fauzie811-filament-list-entry';
 
-    public static string $viewNamespace = 'thiktak-filament-simple-list-entry';
+    public static string $viewNamespace = 'fauzie811-filament-list-entry';
 
     public function configurePackage(Package $package): void
     {
@@ -36,7 +36,7 @@ class FilamentSimpleListEntryServiceProvider extends PackageServiceProvider
                     ->publishConfigFile()
                     ->publishMigrations()
                     ->askToRunMigrations()
-                    ->askToStarRepoOnGitHub('Thiktak/filament-simple-list-entry');
+                    ->askToStarRepoOnGitHub('fauzie811/filament-list-entry');
             });*/
 
         $configFileName = $package->shortName();
@@ -58,9 +58,7 @@ class FilamentSimpleListEntryServiceProvider extends PackageServiceProvider
         }
     }
 
-    public function packageRegistered(): void
-    {
-    }
+    public function packageRegistered(): void {}
 
     public function packageBooted(): void
     {
@@ -93,7 +91,7 @@ class FilamentSimpleListEntryServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'thiktak/filament-simple-list-entry';
+        return 'fauzie811/filament-list-entry';
     }
 
     /**

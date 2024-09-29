@@ -1,12 +1,12 @@
-<img src="https://github.com/Thiktak/filament-simple-list-entry/assets/1201486/4744075f-944e-493d-8df9-4ccbffb80446" width="100%" alt="Preview" class="filament-hidden" />
+<img src="https://github.com/fauzie811/filament-list-entry/assets/1201486/4744075f-944e-493d-8df9-4ccbffb80446" width="100%" alt="Preview" class="filament-hidden" />
 
 
 # Simple List Entry (filament InfoList plugin)
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/Thiktak/filament-simple-list-entry.svg?style=flat-square)](https://packagist.org/packages/Thiktak/filament-simple-list-entry)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/Thiktak/filament-simple-list-entry/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/Thiktak/filament-simple-list-entry/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/Thiktak/filament-simple-list-entry/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/Thiktak/filament-simple-list-entry/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/Thiktak/filament-simple-list-entry.svg?style=flat-square)](https://packagist.org/packages/Thiktak/filament-simple-list-entry)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/fauzie811/filament-list-entry.svg?style=flat-square)](https://packagist.org/packages/fauzie811/filament-list-entry)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/fauzie811/filament-list-entry/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/fauzie811/filament-list-entry/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/fauzie811/filament-list-entry/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/fauzie811/filament-list-entry/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/fauzie811/filament-list-entry.svg?style=flat-square)](https://packagist.org/packages/fauzie811/filament-list-entry)
 
 
 Plugin for FilamentPHP v3.
@@ -17,7 +17,7 @@ Plugin for FilamentPHP v3.
 You can install the package via composer:
 
 ```bash
-composer require Thiktak/filament-simple-list-entry
+composer require fauzie811/filament-list-entry
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ composer require Thiktak/filament-simple-list-entry
 Use it in your Infolist section.
 
 ```php
-// use Thiktak\FilamentSimpleListEntry\Infolists\Components\SimpleListEntry;
+// use Fauzie811\FilamentListEntry\Infolists\Components\SimpleListEntry;
 
     public static function infolist(Infolist $infolist): Infolist
     {
@@ -70,7 +70,7 @@ All methods:
         <td valign="top">
             Default with Icon
 
-![image](https://github.com/Thiktak/filament-simple-list-entry/assets/1201486/7e0ed37a-d4a2-495b-9256-97ed259c6db9)
+![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/7e0ed37a-d4a2-495b-9256-97ed259c6db9)
         </td>
         <td>
 
@@ -87,7 +87,7 @@ SimpleListEntry::make('')
         <td valign="top">
             Inline badges list with icons & links
 
-![image](https://github.com/Thiktak/filament-simple-list-entry/assets/1201486/d3d065a6-a6d1-4ae9-a14c-16ec4caa8897)
+![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/d3d065a6-a6d1-4ae9-a14c-16ec4caa8897)
         </td>
         <td>
 
@@ -107,7 +107,7 @@ SimpleListEntry::make('')
         <td valign="top">
             Inline list with custom separator
 
-![image](https://github.com/Thiktak/filament-simple-list-entry/assets/1201486/f5ed573c-0e89-4314-964c-a9c50117a1af)
+![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/f5ed573c-0e89-4314-964c-a9c50117a1af)
         </td>
         <td>
 
@@ -124,8 +124,8 @@ SimpleListEntry::make('')
     <tr>
         <td valign="top">
             Inline list with Icon
-            
-![image](https://github.com/Thiktak/filament-simple-list-entry/assets/1201486/abd4f68d-8704-4d3f-a8c9-90f8eeeaca11)
+
+![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/abd4f68d-8704-4d3f-a8c9-90f8eeeaca11)
         </td>
         <td>
 
@@ -143,7 +143,7 @@ SimpleListEntry::make('')
         <td valign="top">
             Complexe list with actions
 
-![image](https://github.com/Thiktak/filament-simple-list-entry/assets/1201486/84737aa3-4a3f-440e-92a7-829ae7cfce3c)
+![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/84737aa3-4a3f-440e-92a7-829ae7cfce3c)
         </td>
         <td>
 
@@ -168,7 +168,7 @@ SimpleListEntry::make('scoresTop5')
         <td valign="top">
             Complexe list with custom data, and all options
 
-![image](https://github.com/Thiktak/filament-simple-list-entry/assets/1201486/43716a49-84ea-4d80-bfcd-6d5b0bfa9624)
+![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/43716a49-84ea-4d80-bfcd-6d5b0bfa9624)
         </td>
         <td>
 
@@ -214,8 +214,8 @@ SimpleListEntry::make('checklist')
 
 This plugin is compatible with Light mode and Dark mode.
 
-![image](https://github.com/Thiktak/filament-simple-list-entry/assets/1201486/081f067c-dba6-4f58-a080-334de72b5041)
-![image](https://github.com/Thiktak/filament-simple-list-entry/assets/1201486/53171918-7c13-4c14-99af-63cc42ff9a95)
+![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/081f067c-dba6-4f58-a080-334de72b5041)
+![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/53171918-7c13-4c14-99af-63cc42ff9a95)
 
 
 
@@ -241,7 +241,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Thiktak](https://github.com/:Thiktak)
+- [Thiktak](https://github.com/Thiktak)
 - [All Contributors](../../contributors)
 
 ## License

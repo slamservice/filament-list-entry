@@ -1,6 +1,6 @@
 <?php
 
-namespace Thiktak\FilamentSimpleListEntry\Infolists\Traits;
+namespace Fauzie811\FilamentListEntry\Infolists\Traits;
 
 use Closure;
 use Illuminate\Support\Collection;
