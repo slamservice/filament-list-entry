@@ -1,4 +1,4 @@
-<img src="https://github.com/fauzie811/filament-list-entry/assets/1201486/4744075f-944e-493d-8df9-4ccbffb80446" width="100%" alt="Preview" class="filament-hidden" />
+<img src="https://github.com/user-attachments/assets/a44f93c5-86b2-4a5c-bcb3-d48d7104fd3f" width="100%" alt="Preview" class="filament-hidden" />
 
 
 # List Entry (Filament Infolist Plugin)
