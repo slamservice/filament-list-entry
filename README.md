@@ -1,7 +1,7 @@
 <img src="https://github.com/fauzie811/filament-list-entry/assets/1201486/4744075f-944e-493d-8df9-4ccbffb80446" width="100%" alt="Preview" class="filament-hidden" />
 
 
-# Simple List Entry (filament InfoList plugin)
+# List Entry (Filament Infolist Plugin)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/fauzie811/filament-list-entry.svg?style=flat-square)](https://packagist.org/packages/fauzie811/filament-list-entry)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/fauzie811/filament-list-entry/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/fauzie811/filament-list-entry/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -25,13 +25,13 @@ composer require fauzie811/filament-list-entry
 Use it in your Infolist section.
 
 ```php
-// use Fauzie811\FilamentListEntry\Infolists\Components\SimpleListEntry;
+// use Fauzie811\FilamentListEntry\Infolists\Components\ListEntry;
 
     public static function infolist(Infolist $infolist): Infolist
     {
         return $infolist
             ->schema([
-                SimpleListEntry::make('users')
+                ListEntry::make('users')
                     ->label('Default with Icon')
                     ->itemIcon('heroicon-o-check'),
             ]);
@@ -75,7 +75,7 @@ All methods:
         <td>
 
 ```php
-SimpleListEntry::make('')
+ListEntry::make('')
     ->label('Default with Icon')
     ->getStateUsing(['a', 'b', 'c'])
     ->itemIcon('heroicon-o-check'),
@@ -92,7 +92,7 @@ SimpleListEntry::make('')
         <td>
 
 ```php
-SimpleListEntry::make('')
+ListEntry::make('')
     ->inline(true)
     ->label('Inline badge with icon & link')
     ->getStateUsing(['a', 'b', 'c'])
@@ -112,7 +112,7 @@ SimpleListEntry::make('')
         <td>
 
 ```php
-SimpleListEntry::make('')
+ListEntry::make('')
     ->listStyle('inline')
     ->label('inline simple +')
     ->getStateUsing(['a', 'b', 'c'])
@@ -130,7 +130,7 @@ SimpleListEntry::make('')
         <td>
 
 ```php
-SimpleListEntry::make('')
+ListEntry::make('')
     ->listStyle('inline')
     ->label('inline with Icon')
     ->getStateUsing(['a', 'b', 'c'])
@@ -148,7 +148,7 @@ SimpleListEntry::make('')
         <td>
 
 ```php
-SimpleListEntry::make('scoresTop5')
+ListEntry::make('scoresTop5')
     ->listStyle('list')
     ->itemLabel(fn ($record) => $record->item)
     ->itemUrl(fn ($record) => '#Url-' . $record->id)
@@ -173,7 +173,7 @@ SimpleListEntry::make('scoresTop5')
         <td>
 
 ```php
-SimpleListEntry::make('checklist')
+ListEntry::make('checklist')
     ->listStyle('list')
     ->getStateUsing([
         ['name' => 'Complete profile #1', 'score' => 1],
