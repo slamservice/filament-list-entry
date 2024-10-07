@@ -70,7 +70,7 @@ All methods:
         <td valign="top">
             Default with Icon
 
-![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/7e0ed37a-d4a2-495b-9256-97ed259c6db9)
+![image](https://github.com/user-attachments/assets/1d615a3f-22f6-4d4e-b732-d52be8c5cb0b)
         </td>
         <td>
 
@@ -87,7 +87,7 @@ ListEntry::make('')
         <td valign="top">
             Inline badges list with icons & links
 
-![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/d3d065a6-a6d1-4ae9-a14c-16ec4caa8897)
+![image](https://github.com/user-attachments/assets/97966b09-e709-4901-8e83-9aeae7dc9338)
         </td>
         <td>
 
@@ -107,7 +107,7 @@ ListEntry::make('')
         <td valign="top">
             Inline list with custom separator
 
-![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/f5ed573c-0e89-4314-964c-a9c50117a1af)
+![image](https://github.com/user-attachments/assets/612e49d5-9b5c-4d31-b005-a9e0af1c4dba)
         </td>
         <td>
 
@@ -125,7 +125,7 @@ ListEntry::make('')
         <td valign="top">
             Inline list with Icon
 
-![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/abd4f68d-8704-4d3f-a8c9-90f8eeeaca11)
+![image](https://github.com/user-attachments/assets/74a7f1d5-eb76-47b9-a4be-8086bc739849)
         </td>
         <td>
 
@@ -141,9 +141,9 @@ ListEntry::make('')
     <!-- Example -->
     <tr>
         <td valign="top">
-            Complexe list with actions
+            Complex list with actions
 
-![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/84737aa3-4a3f-440e-92a7-829ae7cfce3c)
+![image](https://github.com/user-attachments/assets/805acc96-f84e-4198-86a4-0c3bccd11fa1)
         </td>
         <td>
 
@@ -166,9 +166,9 @@ ListEntry::make('scoresTop5')
     <!-- Example -->
     <tr>
         <td valign="top">
-            Complexe list with custom data, and all options
+            Complex list with custom data, and all options
 
-![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/43716a49-84ea-4d80-bfcd-6d5b0bfa9624)
+![image](https://github.com/user-attachments/assets/f12a1ae4-8897-476c-92b5-839fede594cd)
         </td>
         <td>
 
@@ -214,9 +214,8 @@ ListEntry::make('checklist')
 
 This plugin is compatible with Light mode and Dark mode.
 
-![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/081f067c-dba6-4f58-a080-334de72b5041)
-![image](https://github.com/fauzie811/filament-list-entry/assets/1201486/53171918-7c13-4c14-99af-63cc42ff9a95)
-
+![light mode](https://github.com/user-attachments/assets/33364a4d-4995-4beb-bfdc-2f38ab8d89aa)
+![dark mode](https://github.com/user-attachments/assets/7097edf1-f8d7-4860-a4bf-797229607687)
 
 
 ## Testing
